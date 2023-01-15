@@ -19,8 +19,14 @@ img {
   display: block;
 }
 
-h1,
+img[src$=".jpg"]{
+  border-radius: 4px;
+}
+
+h1,h2,h3,h4,h5,
 ul,
-p {
+p,
+blockquote {
   margin: 0px;
 }
+

@@ -19,14 +19,18 @@ img {
   display: block;
 }
 
-img[src$=".jpg"]{
+img[src$=".jpg"] {
   border-radius: 4px;
 }
 
-h1,h2,h3,h4,h5,
+h1,
+h2,
+h3,
+h4,
+h5,
 ul,
 p,
-blockquote {
+blockquote,
+dd {
   margin: 0px;
 }
-

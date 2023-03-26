@@ -410,3 +410,35 @@ PARA
 
   ISSO SIGNIFICA QUE SÓ VAI REALIZAR DE TIVER js NA FRENTE
   */
+
+/**
+   * 
+   * FAVICON
+   * 
+    COLOCAR NA RAIZ DO SITE, TEMOS QUE COLOCAR NO HEAD, E COMO É UM ARQUIVO SVG TEMOS QUE COLOCAR A INFORMAÇÃO type='image/svg+xml'
+    <link rel='icon' href = './favicon.svg' type='image/svg+xml
+  
+  */
+
+/**
+     * 
+     * OTIMIZAR CSS
+     * 
+     * 
+      NO bash DENTRO DA PASTA DO bikcraft MESMO VAMOS EXECUTAR A LINHA DE COMANDO:
+      cleancss -o ./css/style.min.css ./css/style.min.css --with-rebase
+
+      ./css/style.min.css(ARQUIVO DE SAIDA)
+
+      ./css/style.min.css(ARQUIVO DE SAIDA)
+
+      --with-rebase(EVITA QUEBRA DE RAIZ NAS IMAGENS, MUDANÇA DE PASTA)
+
+
+      POR ULTIMO PRECISAMOS SUBSTITUIR TODO O 
+       <link rel="preload" href="./css/style.min.css" as="style">
+
+       POR
+
+        <link rel="preload" href="./css/style.min.css" as="style">
+     */
